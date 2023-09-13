@@ -1,23 +1,22 @@
-.img{
-    width: 400px;
-    height: auto;
-    color: white;
-}
+body{
+    height: 100vh;
+    width: 100vw;
 
-.viewport{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(14, 14, 14);
+
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
-
-    height: 100vh;
-    width: auto;
-
-    margin: 0px;
-    padding: 0px;
-
-    background-color: rgb(14, 14, 14);
+    text-align: center;
+}
+img{
+    width: 350px;
+    height: auto;
+    color: white;
 }
 
 h1{
@@ -25,11 +24,44 @@ h1{
     padding: 0px;
 
     color: white;
-    float: left;
+
+    font-size: 4vh;
 }
 
 p{
     margin: 0px;
     padding: 0px;
     color: white;
+}
+
+.button_area{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+button{
+    background-color: grey;
+    border-radius: 5px;
+    min-width: 2px;
+    height: auto;
+    border-style: none;
+    animation-name: loading;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+    0%{
+        width: 3px;
+    }
+    50%{
+        width: 2000x;
+    }
+    100%{
+        width: 340px;
+    }
 }

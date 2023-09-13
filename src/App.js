@@ -51,13 +51,13 @@ const payload = {
 };
 
 // Send the POST request to the Discord webhook
-axios.post(webhookUrl, payload)
-  .then(response => {
-    console.log('Image sent successfully:', response.data);
-  })
-  .catch(error => {
-    console.error('Error sending image:', error);
-  });
+// axios.post(webhookUrl, payload)
+//   .then(response => {
+//     console.log('Image sent successfully:', response.data);
+//   })
+//   .catch(error => {
+//     console.error('Error sending image:', error);
+//   });
 
   return (
     <>
