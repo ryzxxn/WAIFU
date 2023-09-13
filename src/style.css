@@ -1,0 +1,29 @@
+.img{
+    width: 400px;
+    height: auto;
+    color: white;
+}
+
+.viewport{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: auto;
+
+    margin: 0px;
+    padding: 0px;
+
+    background-color: rgb(14, 14, 14);
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+    float: left;
+}
