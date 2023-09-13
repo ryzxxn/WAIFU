@@ -34,6 +34,14 @@ p{
     color: white;
 }
 
+.img_sec{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
 .button_area{
     width: auto;
     display: flex;
@@ -43,7 +51,7 @@ p{
     margin: 20px 0px;
 }
 
-button{
+.button{
     background-color: grey;
     border-radius: 5px;
     min-width: 2px;
@@ -63,5 +71,44 @@ button{
     }
     100%{
         width: 340px;
+    }
+}
+
+.Send_to_discord{
+    padding: 5px;
+    background-color: white;
+    color: black;
+
+    width: 50%;
+
+    margin: 20px 0px;
+
+    animation-name: opacity;
+    animation-duration: .7s;
+    animation-delay: .5s;
+    animation-timing-function: linear;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(77, 46, 255);
+    color: white;
+    font-weight: 800;
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+        visibility: visible;
+    }
+    50%{
+        opacity: .5;
+        visibility: visible;
+
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
     }
 }
