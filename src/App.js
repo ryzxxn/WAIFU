@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
 import Logic from './module/logic';
-import axios from 'axios'
+// import axios from 'axios'
 
 export default function App() {
 
@@ -32,23 +32,24 @@ export default function App() {
     });
   }, []);
 
-  // Discord webhook URL
-  const webhookUrl = 'https://discord.com/api/webhooks/1151473677364379658/a1fsyU8zTLeS_GlcrQ46F2GVIeeGH3Mbw1GBKIpKkFWaPHFipm3sSQz-Da5QNR9NfqvN';
 
-  // URL of the image you want to send
-  const imageUrl = data?.url;
+// Discord webhook URL
+//const webhookUrl = 'https://discord.com/api/webhooks/1151473677364379658/a1fsyU8zTLeS_GlcrQ46F2GVIeeGH3Mbw1GBKIpKkFWaPHFipm3sSQz-Da5QNR9NfqvN';
+
+// URL of the image you want to send
+//const imageUrl = data?.url;
 
   // Define the message payload
-const payload = {
-  content: '',
-  embeds: [
-    {
-      image: {
-        url: imageUrl,
-      },
-    },
-  ],
-};
+// const payload = {
+//   content: '',
+//   embeds: [
+//     {
+//       image: {
+//         url: imageUrl,
+//       },
+//     },
+//   ],
+// };
 
 //Send the POST request to the Discord webhook
 // axios.post(webhookUrl, payload)
