@@ -35,7 +35,7 @@ const payload = {
       setTimeout(function() {
         // Reload the page
         window.location.reload();
-    }, 1000);
+    }, 800);
   }
 
   function refresh()
