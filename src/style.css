@@ -19,6 +19,8 @@ img{
     height: auto;
     max-height: 500px;
     color: white;
+
+    border-radius: 15px;
 }
 
 h1{
@@ -97,6 +99,13 @@ p{
     background-color: rgb(77, 46, 255);
     color: white;
     font-weight: 800;
+    transition: 200ms;
+}
+
+.Send_to_discord:hover{
+    background-color: rgb(89, 60, 255);
+    box-shadow: 6px 6px 0px rgb(0, 0, 0);
+    transition: 200ms;
 }
 
 @keyframes opacity {
