@@ -27,3 +27,9 @@ h1{
     color: white;
     float: left;
 }
+
+p{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
