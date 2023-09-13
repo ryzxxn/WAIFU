@@ -83,7 +83,7 @@ p{
     background-color: white;
     color: black;
 
-    width: 50%;
+    width: 100px;
 
     margin: 20px 0px;
 
@@ -103,7 +103,7 @@ p{
 }
 
 .Send_to_discord:hover{
-    background-color: rgb(89, 60, 255);
+    background-color: rgb(129, 106, 255);
     box-shadow: 6px 6px 0px rgb(0, 0, 0);
     transition: 200ms;
 }
@@ -122,4 +122,11 @@ p{
         opacity: 1;
         visibility: visible;
     }
+}
+
+.button_holder{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
 }

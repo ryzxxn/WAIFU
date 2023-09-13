@@ -32,6 +32,15 @@ const payload = {
       .catch(error => {
         console.error('Error sending image:', error);
       });
+      setTimeout(function() {
+        // Reload the page
+        window.location.reload();
+    }, 1000);
+  }
+
+  function refresh()
+  {
+    window.location.reload()
   }
 
   return (
@@ -42,7 +51,10 @@ const payload = {
           <>
           <div className='img_sec'>
             <img className='img' src={imgSrc} alt="Random Waifu" />
+            <div className='button_holder'>
             <button onClick={discord} className='Send_to_discord'>Discord</button>
+            <button onClick={refresh} className='Send_to_discord'>Next</button>
+            </div>
           </div>
           </>
         ) : (
