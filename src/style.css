@@ -13,9 +13,11 @@ body{
     align-items: center;
     text-align: center;
 }
+
 img{
     width: 350px;
     height: auto;
+    max-height: 500px;
     color: white;
 }
 

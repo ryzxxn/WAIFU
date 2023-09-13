@@ -41,8 +41,8 @@ const payload = {
         {imgSrc ? (
           <>
           <div className='img_sec'>
-          <img className='img' src={imgSrc} alt="Random Waifu" />
-          <button onClick={discord} className='Send_to_discord'>Discord</button>
+            <img className='img' src={imgSrc} alt="Random Waifu" />
+            <button onClick={discord} className='Send_to_discord'>Discord</button>
           </div>
           </>
         ) : (
