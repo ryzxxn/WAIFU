@@ -8,7 +8,7 @@ export default function App() {
   // Use the fetch API to make a GET request to the URL
   async function getdata() {
     try {
-      const response = await fetch('https://api.waifu.pics/sfw/cringe');
+      const response = await fetch('https://api.waifu.pics/sfw/dance');
 
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
