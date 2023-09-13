@@ -14,10 +14,12 @@ First, let's set up a new React project using Create React App:
 ```bash
 npx create-react-app discord-webhook-app
 cd discord-webhook-app
+```
 
 ![Live](https://cdn.discordapp.com/attachments/1144940807393136723/1151589159765549158/image.png)
 
 
 ```bash
 https://mywaifu.netlify.app/
+```
 
