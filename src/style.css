@@ -21,6 +21,11 @@ img{
     color: white;
 
     border-radius: 15px;
+    animation-name: opacity;
+    animation-duration: .7s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
 }
 
 h1{
@@ -62,7 +67,7 @@ p{
     height: 8px;
     border-style: none;
     animation-name: loading;
-    animation-duration: .9s;
+    animation-duration: 1.1s;
     animation-timing-function: linear;
 }
 
