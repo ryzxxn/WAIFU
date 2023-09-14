@@ -26,6 +26,7 @@ img{
     animation-delay: 1.4s;
     animation-fill-mode: forwards;
     visibility: hidden;
+    image-rendering: optimizeSpeed;
 }
 
 h1{
