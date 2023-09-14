@@ -136,6 +136,14 @@ p{
 .button_holder{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 30px;
     justify-content: space-evenly;
+    width: 92%;
+}
+
+.daddy{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
 }
