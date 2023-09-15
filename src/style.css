@@ -147,4 +147,6 @@ p{
     flex-direction: row;
     flex-wrap: wrap;
     height: auto;
+    justify-content: center;
+    align-items: center;
 }
