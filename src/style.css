@@ -1,17 +1,8 @@
 body{
-    height: 100vh;
-    width: 100vw;
-
     margin: 0px;
     padding: 0px;
-    background-color: rgb(14, 14, 14);
 
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-color: rgb(17, 17, 17);
 }
 
 img{
@@ -41,7 +32,6 @@ h1{
 p{
     margin: 0px;
     padding: 0px;
-    color: white;
 }
 
 .img_sec{
@@ -139,12 +129,34 @@ p{
     flex-direction: row;
     gap: 30px;
     justify-content: space-evenly;
-    width: 92%;
+    width:25%;
 }
 
 .daddy{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     height: auto;
+
+    width: 100%;
+    height: 100%;
+
+    margin: 40px 0px;
+}
+
+.navbar{
+    width: auto;
+    height: 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.links{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+    margin: 0px 20px;
 }

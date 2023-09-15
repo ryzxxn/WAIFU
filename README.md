@@ -29,7 +29,7 @@ In this guide, we will learn how to send POST requests to a webhook URL. Webhook
 
 ## Prerequisites
 
-Before we begin, make sure you have the following:
+Before we begin, Make sure you have the following:
 
 - A webhook URL to which you want to send data.
 - A programming environment with the necessary libraries or tools to make HTTP requests.
