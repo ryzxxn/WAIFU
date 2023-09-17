@@ -104,7 +104,7 @@ export default function Logic() {
         {data ? (
           <>
           <div className='img_sec'>
-            <img src={data.url} alt="Random Waifu" />
+            <img loading='lazy' src={data.url} alt="Random Waifu" />
             <div className='button_holder'>
               <button onClick={discord} className='Send_to_discord'>Discord</button>
               <button onClick={refresh} className='Send_to_discord'>Next</button>
