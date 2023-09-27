@@ -68,7 +68,7 @@ export default function Logic() {
 
 
 /////////////////////////////////////DISCORD WEBHOOK
-  function discord(){
+  async function discord(){
   const webhookUrl = 'https://discord.com/api/webhooks/1151473677364379658/a1fsyU8zTLeS_GlcrQ46F2GVIeeGH3Mbw1GBKIpKkFWaPHFipm3sSQz-Da5QNR9NfqvN';
   const payload = {
     content: '',
@@ -97,6 +97,7 @@ export default function Logic() {
   {
     window.location.reload()
   }
+////////////////////////////////
 
   return (
     <>
