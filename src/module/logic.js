@@ -15,14 +15,14 @@ export default function Logic() {
   const switch_url = localStorage.getItem('key');
 
 
-  async function toggle(){
-    localStorage.setItem('key', "https://api.waifu.pics/nsfw/waifu");
-    if (switch_url === 'https://api.waifu.pics/sfw/waifu') {
-      localStorage.setItem('key', "https://api.waifu.pics/nsfw/waifu");
-    } else {
-      localStorage.setItem('key', "https://api.waifu.pics/sfw/waifu");
-    }
-}
+//   async function toggle(){
+//     localStorage.setItem('key', "https://api.waifu.pics/nsfw/waifu");
+//     if (switch_url === 'https://api.waifu.pics/sfw/waifu') {
+//       localStorage.setItem('key', "https://api.waifu.pics/nsfw/waifu");
+//     } else {
+//       localStorage.setItem('key', "https://api.waifu.pics/sfw/waifu");
+//     }
+// }
 
 /////////////////////////////////////FETCHING AND STORING DATA
   async function getdata() {
@@ -53,18 +53,18 @@ export default function Logic() {
 
 
   //////////////////////////////////////////////////BUTTON COLOR INCDICATOR
-  const [buttonBgColor, setButtonBgColor] = useState('');
+  // const [buttonBgColor, setButtonBgColor] = useState('');
 
-  useEffect(() => {
-    // Check if switch_url is equal to the specific string
-    if (switch_url === 'https://api.waifu.pics/nsfw/waifu') {
-      // If it matches, set the button background color to red
-      setButtonBgColor('red');
-    } else {
-      // Otherwise, set the button background color to its default color
-      setButtonBgColor('');
-    }
-  }, [switch_url]);
+  // useEffect(() => {
+  //   // Check if switch_url is equal to the specific string
+  //   if (switch_url === 'https://api.waifu.pics/nsfw/waifu') {
+  //     // If it matches, set the button background color to red
+  //     setButtonBgColor('red');
+  //   } else {
+  //     // Otherwise, set the button background color to its default color
+  //     setButtonBgColor('');
+  //   }
+  // }, [switch_url]);
 
 
 /////////////////////////////////////DISCORD WEBHOOK
@@ -108,7 +108,7 @@ export default function Logic() {
             <div className='button_holder'>
               <button onClick={discord} className='Send_to_discord'>Discord</button>
               <button onClick={refresh} className='Send_to_discord'>Next</button>
-              <button onClick={toggle} id="myButton" style={{ backgroundColor: buttonBgColor }} className='Send_to_discord'>NSFW/SFW</button>
+              {/* <button onClick={toggle} id="myButton" style={{ backgroundColor: buttonBgColor }} className='Send_to_discord'>NSFW/SFW</button> */}
             </div>
           </div>
           </>
