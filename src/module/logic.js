@@ -69,7 +69,7 @@ export default function Logic() {
 
 /////////////////////////////////////DISCORD WEBHOOK
   function discord(){
-  const webhookUrl = 'https://discord.com/api/webhooks/1151473677364379658/a1fsyU8zTLeS_GlcrQ46F2GVIeeGH3Mbw1GBKIpKkFWaPHFipm3sSQz-Da5QNR9NfqvN';
+  const webhookUrl = 'https://discord.com/api/webhooks/1247653736848031845/g_NaJepK8iaA3bKd_2vAjF94oQxtPtSjVQ0xG36KmtUUlBdXu2T4RvGw77_I8x99Zzrf';
   const payload = {
     content: '',
     embeds: [
